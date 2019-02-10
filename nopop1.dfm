@@ -107,8 +107,6 @@ object FNoPop: TFNoPop
     Width = 73
     Height = 25
     Caption = 'Switch'
-    DoubleBuffered = True
-    ParentDoubleBuffered = False
     TabOrder = 7
     OnClick = PshSwitchClick
   end
@@ -167,7 +165,7 @@ object FNoPop: TFNoPop
     Left = 432
     Top = 88
     Bitmap = {
-      494C010106000900100010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010106000900140010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000002000000001002000000000000020
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -480,10 +478,6 @@ object FNoPop: TFNoPop
   end
   object OpenDialog1: TOpenDialog
     Left = 288
-    Top = 16
-  end
-  object XPManifest1: TXPManifest
-    Left = 544
     Top = 16
   end
 end

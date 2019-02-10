@@ -8,7 +8,7 @@ USEFORM("nopop1.cpp", FNoPop);
 bool gViewerOnly;
 
 //---------------------------------------------------------------------------
-WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+WINAPI int WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
         try
         {

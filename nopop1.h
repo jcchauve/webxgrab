@@ -21,6 +21,7 @@
 #include <ToolWin.hpp>
 #include <Menus.hpp>
 #include <XPMan.hpp>
+#include <System.ImageList.hpp>
 
 
 extern int gHTTPDownloaded_Bytes;
@@ -99,7 +100,6 @@ __published:	// Composants gérés par l'EDI
   TOpenDialog *OpenDialog1;
   TMenuItem *N1;
   TMenuItem *ChangeProfileDir1;
-	TXPManifest *XPManifest1;
         void __fastcall PshOkClick(TObject *Sender);
         void __fastcall Ok2Click(TObject *Sender);
         void __fastcall OnDow(TObject *Sender);

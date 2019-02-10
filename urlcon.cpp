@@ -39,7 +39,7 @@ static const Shortint MODE_BYTE = 0x3;
 
 //bool gUseIndy=true;
 
-extern AnsiString gDirectorySeparator;
+AnsiString gDirectorySeparator = "\\";
 
 class TOTIdMessage :public TIdMessage
 {
@@ -922,7 +922,7 @@ RFC 821                                                      August 1982
       break;
   }
   lDateStr=lDateStr.SubString(1,3)+AnsiString(lpMonths[month-1])+lDateStr.SubString(4,12)+lZoneStr;
-#endif  
+#endif
   TStringList *lpList=new TStringList();
   SplitString(AnsiString(","),aTo,lpList);
 #ifdef USE_POWERSOCK
@@ -1059,7 +1059,7 @@ RFC 821                                                      August 1982
 #endif
       if (mUseIndy)
       {
-        mpIdSMTP->Send(lpIdMessage);        
+        mpIdSMTP->Send(lpIdMessage);
       }
     }
     catch (Exception &Ex)
