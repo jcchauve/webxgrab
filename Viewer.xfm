@@ -1,0 +1,56 @@
+object FViewer: TFViewer
+  Left = 350
+  Top = 323
+  Width = 783
+  Height = 540
+  Caption = 'Image Viewer'
+  Color = clBlack
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image321: TImage32
+    Left = 8
+    Top = 8
+    Width = 561
+    Height = 417
+    BitmapAlign = baTopLeft
+    PopupMenu = PopupMenu1
+    Scale = 1
+    ScaleMode = smResize
+    TabOrder = 0
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 120
+    Top = 32
+    object Next1: TMenuItem
+      Caption = 'Next'
+    end
+    object Prev1: TMenuItem
+      Caption = 'Prev'
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object MenNoAntialias: TMenuItem
+      Caption = 'No Antialias'
+      RadioItem = True
+      OnClick = MenNoAntialiasClick
+    end
+    object MenLinearAntialias: TMenuItem
+      Caption = 'Linear Antialias'
+      RadioItem = True
+      OnClick = MenLinearAntialiasClick
+    end
+    object MenSplineAntialias: TMenuItem
+      Caption = 'spline Antialias'
+      RadioItem = True
+      OnClick = MenSplineAntialiasClick
+    end
+  end
+end

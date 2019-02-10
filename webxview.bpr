@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="webxview.exe"/>
+    <OBJFILES value="objsv\webxview.obj objsv\Viewer.obj objsv\histo.obj objsv\registr.obj 
+      objsv\struti.obj"/>
+    <RESFILES value="webxview.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Viewer.dfm histo.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="gr32_cb5.lib indy.lib vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib indy.lib gr32_cb5.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi 
+      vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi 
+      nmfast.bpi webdsnap.bpi bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi 
+      dbexpress.bpi dbxcds.bpi bcb2kaxserver.bpi Io50.bpi visualclx.bpi 
+      visualdbclx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG;VIEWER=1"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="webxview.cpp"/>
+    <INCLUDEPATH value="$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\develop\claudio\webxgrab;.\graphics32"/>
+    <LIBPATH value="$(BCB)\Projects;C:\develop\claudio\webxgrab;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\Projects -I$(BCB)\include -I$(BCB)\include\vcl 
+      -IC:\develop\claudio\webxgrab -I.\graphics32 -src_suffix cpp -D_DEBUG 
+      -DVIEWER=1 -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-N2.\objsv -N0.\objsv -$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-I.\objsv -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="webxview.res" FORMNAME="" UNITNAME="webxview.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="webxview.cpp" FORMNAME="" UNITNAME="webxview" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Viewer.cpp" FORMNAME="FViewer" UNITNAME="Viewer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="histo.cpp" FORMNAME="FHistory" UNITNAME="histo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registr.cpp" FORMNAME="" UNITNAME="registr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="struti.cpp" FORMNAME="" UNITNAME="struti" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1036
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\bcb6\Bin\dclindy60.bpl=Internet Direct (Indy) for D6 Property and Component Editors
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\develop\claudio\webxgrab;.\graphics32
+Item1=$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;C:\develop\claudio\webxgrab;\develop\claudio\webxgrab\graphics32
+Item2=$(BCB)\Projects;C:\develop\claudio\webxgrab;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\Projects;C:\develop\claudio\webxgrab;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=_DEBUG;VIEWER=1
+Item1=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=.\objsv
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

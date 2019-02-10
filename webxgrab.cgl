@@ -1,0 +1,1337 @@
+Error 00045. 0x820000 (Thread 0x0BC4):
+Function failure:
+mkdir(0x00E21F5C ["F:\Documents and Settings\clodio\Application
+ Data\WebXGrab"])=0xFFFFFFFF [-1]
+
+Call Tree:
+   0x00403705(=webxgrab.exe:0x01:002705) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#156
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00047. 0x350010 (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2AF44) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2AF44) [size: 16 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00048. 0x350010 (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E23270) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E23270) [size: 65 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00049. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2AFD4) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2AFD4) [size: 13 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00050. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E25BFC) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E25BFC) [size: 59 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00051. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B060) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B060) [size: 8 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00052. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E26BAC) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E26BAC) [size: 59 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00053. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B09C) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B09C) [size: 14 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00054. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E26CBC) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E26CBC) [size: 64 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00055. 0x350010 (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2AEA0) 
+
+Call Tree:
+   0x00418DA1(=webxgrab.exe:0x01:017DA1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#550
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2AEA0) [size: 6 bytes] was created with new[]
+Call Tree:
+   0x00418437(=webxgrab.exe:0x01:017437) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#325
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00056. 0x350010 (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2AEAC) 
+
+Call Tree:
+   0x00418DCD(=webxgrab.exe:0x01:017DCD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#552
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2AEAC) [size: 49 bytes] was created with new[]
+Call Tree:
+   0x00418499(=webxgrab.exe:0x01:017499) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#329
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00057. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E24BC0) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E24BC0) [size: 23 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00058. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B394) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B394) [size: 31 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00059. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B434) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B434) [size: 30 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00060. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B458) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B458) [size: 34 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00061. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E28A90) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E28A90) [size: 23 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00062. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B504) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B504) [size: 32 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00063. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B5A4) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B5A4) [size: 100 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00064. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B60C) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B60C) [size: 33 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00065. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B700) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B700) [size: 30 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00066. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B724) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B724) [size: 23 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00067. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2230C) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2230C) [size: 20 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00068. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B7C4) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B7C4) [size: 45 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00069. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B874) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B874) [size: 21 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00070. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B890) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B890) [size: 35 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00071. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B934) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B934) [size: 41 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00072. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B964) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B964) [size: 25 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00073. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E28A50) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E28A50) [size: 39 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00074. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B9B4) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2B9B4) [size: 35 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00075. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BA0C) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2BA0C) [size: 21 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00076. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BA28) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00418D4E(=webxgrab.exe:0x01:017D4E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#538
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+
+The object array (0x00E2BA28) [size: 29 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00077. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B2F4) 
+
+Call Tree:
+   0x00418DA1(=webxgrab.exe:0x01:017DA1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#550
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2B2F4) [size: 2 bytes] was created with new[]
+Call Tree:
+   0x00418437(=webxgrab.exe:0x01:017437) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#325
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00078. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B300) 
+
+Call Tree:
+   0x00418DCD(=webxgrab.exe:0x01:017DCD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#552
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2B300) [size: 45 bytes] was created with new[]
+Call Tree:
+   0x00418499(=webxgrab.exe:0x01:017499) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#329
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00079. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B128) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2B128) [size: 8 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00080. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B134) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2B134) [size: 65 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00081. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E248A0) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E248A0) [size: 20 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00082. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2B1E8) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2B1E8) [size: 143 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00083. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BAC8) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BAC8) [size: 19 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00084. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BAE0) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BAE0) [size: 19 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00085. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BB70) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BB70) [size: 13 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00086. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BB84) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BB84) [size: 30 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00087. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BBD8) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BBD8) [size: 12 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00088. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BBE8) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BBE8) [size: 23 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00089. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BC74) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BC74) [size: 25 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00090. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BC94) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BC94) [size: 53 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00091. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BD4C) 
+
+Call Tree:
+   0x00418E31(=webxgrab.exe:0x01:017E31) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#569
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BD4C) [size: 25 bytes] was created with new[]
+Call Tree:
+   0x004187A1(=webxgrab.exe:0x01:0177A1) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#414
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00092. 0x350010 (r) (Thread 0x0BC4):
+Resource type mismatch: a(n) object was expected.
+delete(0x00E2BD6C) 
+
+Call Tree:
+   0x00418E47(=webxgrab.exe:0x01:017E47) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#570
+   0x00417D6E(=webxgrab.exe:0x01:016D6E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#79
+   0x00417CFD(=webxgrab.exe:0x01:016CFD) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#70
+   0x00406844(=webxgrab.exe:0x01:005844) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#578
+   0x004800A3(=webxgrab.exe:0x01:07F0A3) Forms.pas#2640
+   0x0047FF0E(=webxgrab.exe:0x01:07EF0E) Forms.pas#2605
+
+The object array (0x00E2BD6C) [size: 68 bytes] was created with new[]
+Call Tree:
+   0x004187EE(=webxgrab.exe:0x01:0177EE) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#416
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00094. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B8B8) was never deleted
+
+The object array (0x00E2B8B8) [size: 70 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00095. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2581C) was never deleted
+
+The object array (0x00E2581C) [size: 61 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00096. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE21978) was never deleted
+
+The object array (0x00E21978) [size: 60 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00097. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2BAF8) was never deleted
+
+The object array (0x00E2BAF8) [size: 66 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00098. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2BA4C) was never deleted
+
+The object array (0x00E2BA4C) [size: 70 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00099. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE25C84) was never deleted
+
+The object array (0x00E25C84) [size: 88 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00100. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2BCD0) was never deleted
+
+The object array (0x00E2BCD0) [size: 72 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00101. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2BC04) was never deleted
+
+The object array (0x00E2BC04) [size: 59 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00102. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2BDB4) was never deleted
+
+The object array (0x00E2BDB4) [size: 72 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00103. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B0B0) was never deleted
+
+The object array (0x00E2B0B0) [size: 67 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00104. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B17C) was never deleted
+
+The object array (0x00E2B17C) [size: 55 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00105. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B27C) was never deleted
+
+The object array (0x00E2B27C) [size: 67 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00106. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B3B8) was never deleted
+
+The object array (0x00E2B3B8) [size: 72 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00107. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B480) was never deleted
+
+The object array (0x00E2B480) [size: 79 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00108. 0x300010 (Thread 0x0BC4):
+Resource leak: The memory block (0xE2ADD0) was never freed
+
+The memory block (0x00E2ADD0) [size: 28 bytes] was allocated with SysGetMem
+Call Tree:
+   0x004C651E(=webxgrab.exe:0x01:0C551E) system.pas#1227
+   0x0041782B(=webxgrab.exe:0x01:01682B) D:\develop\CLAUDIO\webxgrab\registr.cpp#35
+   0x00403360(=webxgrab.exe:0x01:002360) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#126
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+   0x004D1083(=webxgrab.exe:0x01:0D0083)
+
+------------------------------------------
+Error 00109. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B528) was never deleted
+
+The object array (0x00E2B528) [size: 72 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00110. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B634) was never deleted
+
+The object array (0x00E2B634) [size: 149 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00111. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B7F8) was never deleted
+
+The object array (0x00E2B7F8) [size: 69 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00112. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2B740) was never deleted
+
+The object array (0x00E2B740) [size: 79 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00113. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE24FBC) was never deleted
+
+The object array (0x00E24FBC) [size: 90 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00114. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2AFE8) was never deleted
+
+The object array (0x00E2AFE8) [size: 66 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Error 00115. 0x300010 (Thread 0x0BC4):
+Resource leak: The object array (0xE2AF58) was never deleted
+
+The object array (0x00E2AF58) [size: 69 bytes] was created with new[]
+Call Tree:
+   0x0041883B(=webxgrab.exe:0x01:01783B) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#418
+   0x00418628(=webxgrab.exe:0x01:017628) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#363
+   0x00417F2E(=webxgrab.exe:0x01:016F2E) D:\develop\CLAUDIO\webxgrab\FavoriteEngine.cpp#144
+   0x004034EE(=webxgrab.exe:0x01:0024EE) D:\develop\CLAUDIO\webxgrab\nopop1.cpp#140
+   0x0048853F(=webxgrab.exe:0x01:08753F) Forms.pas#6704
+   0x00402502(=webxgrab.exe:0x01:001502) D:\develop\CLAUDIO\webxgrab\webxgrab.cpp#22
+
+------------------------------------------
+Functions called:
+ fflush (4 times)
+ free (7 times)
+ delete (85 times)
+ atoi (5 times)
+ mkdir (1 times)
+ new[] (67 times)
+ memset (31 times)
+ new (39 times)
+ SysReallocMem (140 times)
+ SysFreeMem (29259 times)
+ SysGetMem (29260 times)
+ lstrlenA (1 times)
+ lstrcpyA (4 times)
+ calloc (1 times)
+ strlen (219 times)
+ realloc (1 times)
+ strdup (1 times)
+ malloc (4 times)
+ memcpy (73 times)
+Resource types used:
+ object array (67 allocs, 67 max)
+ object (39 allocs, 39 max)
+ memory block (29267 allocs, 27111 max)
+Modules used:
+ 00400000 02/08/2002 19:55:36 D:\develop\CLAUDIO\webxgrab\webxgrab.exe
+==========================================

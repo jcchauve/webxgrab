@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="webxgrab.exe"/>
+    <OBJFILES value="webxgrab.obj nopop1.obj histo.obj urlcon.obj struti.obj registr.obj 
+      FavoriteEngine.obj Viewer.obj"/>
+    <RESFILES value="webxgrab.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) nopop1.dfm histo.dfm Viewer.dfm"/>
+    <LIBFILES value="wininet.lib"/>
+    <LIBRARIES value="dclusr.lib thmanager.lib visualclx.lib bcb2kaxserver.lib indy.lib 
+      dbxcds.lib dclocx.lib soaprtl.lib inetdbxpress.lib inetdbbde.lib 
+      bcbsmp.lib dsnapcon.lib dsnapcrba.lib visualdbclx.lib teeqr.lib dss.lib 
+      tee.lib teedb.lib teeui.lib qrpt.lib bdecds.lib vcldbx.lib bdertl.lib 
+      dbexpress.lib dsnap.lib cds.lib GR32_CB5.lib nmfast.lib bcbie.lib 
+      ibxpress.lib adortl.lib vcldb.lib dbrtl.lib vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib dbrtl.lib vcldb.lib adortl.lib ibxpress.lib 
+      bcbie.lib nmfast.lib GR32_CB5.lib cds.lib dsnap.lib dbexpress.lib 
+      bdertl.lib vcldbx.lib bdecds.lib qrpt.lib teeui.lib teedb.lib tee.lib 
+      dss.lib teeqr.lib visualdbclx.lib dsnapcrba.lib dsnapcon.lib bcbsmp.lib 
+      inetdbbde.lib inetdbxpress.lib soaprtl.lib dclocx.lib dbxcds.lib indy.lib 
+      bcb2kaxserver.lib visualclx.lib thmanager.lib dclusr.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi bcbsmp.bpi dbrtl.bpi vcldb.bpi adortl.bpi 
+      ibsmp.bpi bdertl.bpi vcldbx.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi 
+      dss.bpi teeqr.bpi ibxpress.bpi dsnap.bpi vclie.bpi inetdb.bpi inet.bpi 
+      nmfast.bpi webdsnap.bpi bcbie.bpi dclocx.bpi bcb97axserver.bpi DCLUSR.bpi 
+      FlatStyle_Cb4.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="webxgrab.cpp"/>
+    <INCLUDEPATH value="&quot;..\..\thmanager\theme manager&quot;;$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;graphics32"/>
+    <LIBPATH value="&quot;..\..\thmanager\theme manager&quot;;$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -D_DEBUG -I&quot;..\..\thmanager\theme manager&quot; 
+      -I$(BCB)\Projects -Id:\bcb5eval\CBuilder5\Projects\. -I$(BCB)\include 
+      -I$(BCB)\include\vcl -Igraphics32 -boa"/>
+    <CFLAG1 value="-Od -H=c:\bcb6\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="webxgrab.cpp" FORMNAME="" UNITNAME="webxgrab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="webxgrab.res" FORMNAME="" UNITNAME="webxgrab" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="nopop1.cpp" FORMNAME="FNoPop" UNITNAME="nopop1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="histo.cpp" FORMNAME="FHistory" UNITNAME="histo" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="urlcon.cpp" FORMNAME="" UNITNAME="urlcon" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="struti.cpp" FORMNAME="" UNITNAME="struti" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="registr.cpp" FORMNAME="" UNITNAME="registr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FavoriteEngine.cpp" FORMNAME="" UNITNAME="FavoriteEngine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="wininet.lib" FORMNAME="" UNITNAME="wininet" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Viewer.cpp" FORMNAME="FViewer" UNITNAME="Viewer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;graphics32
+Item1=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;.\graphics32
+Item2=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;..\..\graphics32
+Item3=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;D:\develop\graphics32
+Item4=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\Projects;d:\bcb5eval\CBuilder5\Projects\;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;C:\bcb6\Source\Indy\
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

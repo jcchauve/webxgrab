@@ -1,0 +1,508 @@
+object FHistory: TFHistory
+  Left = 216
+  Top = 232
+  Caption = 'FHistory'
+  ClientHeight = 318
+  ClientWidth = 499
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnDestroy = FormDestroy
+  DesignSize = (
+    499
+    318)
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PageControlSearch: TPageControl
+    Left = 8
+    Top = 16
+    Width = 481
+    Height = 296
+    ActivePage = TabSheet1
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'History'
+      DesignSize = (
+        473
+        268)
+      object GridH: TStringGrid
+        Left = 8
+        Top = 12
+        Width = 457
+        Height = 252
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ColCount = 3
+        DefaultColWidth = 100
+        DefaultRowHeight = 16
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goEditing]
+        TabOrder = 0
+        OnDblClick = OnDblClick
+        RowHeights = (
+          16
+          16
+          16
+          16
+          16)
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Source'
+      ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      DesignSize = (
+        473
+        268)
+      object Memo1: TMemo
+        Left = 8
+        Top = 16
+        Width = 457
+        Height = 240
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Links'
+      ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      DesignSize = (
+        473
+        268)
+      object GrdLinks: TStringGrid
+        Left = 8
+        Top = 112
+        Width = 449
+        Height = 144
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        DefaultRowHeight = 16
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goRowSelect]
+        PopupMenu = PopLinks
+        TabOrder = 0
+        OnDblClick = GrdLinksDblClick
+        RowHeights = (
+          16
+          16
+          16
+          16
+          16)
+      end
+      object PshSearch: TButton
+        Left = 384
+        Top = 40
+        Width = 75
+        Height = 25
+        Anchors = [akTop, akRight]
+        Caption = 'Auto Search'
+        TabOrder = 1
+        OnClick = PshSearchClick
+      end
+      object GrdSearch: TStringGrid
+        Left = 8
+        Top = 8
+        Width = 377
+        Height = 97
+        Anchors = [akLeft, akTop, akRight]
+        ColCount = 1
+        DefaultRowHeight = 16
+        FixedCols = 0
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
+        TabOrder = 2
+        OnKeyDown = GrdSearchKeyDown
+        ColWidths = (
+          420)
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Download'
+      ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      DesignSize = (
+        473
+        268)
+      object Label1: TLabel
+        Left = 8
+        Top = 8
+        Width = 42
+        Height = 13
+        Caption = 'Directory'
+      end
+      object Label2: TLabel
+        Left = 256
+        Top = 8
+        Width = 22
+        Height = 13
+        Caption = 'Filter'
+      end
+      object Label3: TLabel
+        Left = 8
+        Top = 32
+        Width = 62
+        Height = 13
+        Caption = 'Max Threads'
+      end
+      object LabSize: TLabel
+        Left = 256
+        Top = 32
+        Width = 20
+        Height = 13
+        Caption = 'Size'
+      end
+      object EdtDir: TEdit
+        Left = 96
+        Top = 8
+        Width = 121
+        Height = 21
+        TabOrder = 0
+        Text = 'C:\TMP'
+        OnChange = EdtDirChange
+      end
+      object GrdDownload: TStringGrid
+        Left = 8
+        Top = 64
+        Width = 457
+        Height = 200
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        DefaultRowHeight = 16
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+        PopupMenu = PopDownload
+        TabOrder = 1
+        OnDblClick = GrdDownloadDblClick
+      end
+      object EdtFilter: TEdit
+        Left = 288
+        Top = 8
+        Width = 121
+        Height = 21
+        TabOrder = 2
+        Text = '*.jpg,*.gif,*.exe,*.zip,*.rar'
+        OnChange = EdtFilterChange
+      end
+      object PshDir: TButton
+        Left = 216
+        Top = 8
+        Width = 22
+        Height = 22
+        Caption = '...'
+        TabOrder = 3
+        OnClick = PshDirClick
+      end
+      object EdtMaxThreads: TEdit
+        Left = 96
+        Top = 32
+        Width = 121
+        Height = 21
+        TabOrder = 4
+        OnChange = EdtMaxThreadsChange
+      end
+      object EdtSize: TEdit
+        Left = 288
+        Top = 32
+        Width = 121
+        Height = 21
+        Hint = 'MinSize-MaxSize in KO'
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 5
+        Text = '0-1000000'
+        OnChange = EdtSizeChange
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Auto Search'
+      ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      DesignSize = (
+        473
+        268)
+      object GrdAuto: TStringGrid
+        Left = 8
+        Top = 32
+        Width = 449
+        Height = 224
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        DefaultRowHeight = 16
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+        PopupMenu = PopAuto
+        TabOrder = 0
+        OnDblClick = GrdLinksDblClick
+        OnKeyPress = GrdAutoKeyPress
+      end
+    end
+    object TabSheetFiles: TTabSheet
+      Caption = 'File Browser'
+      ImageIndex = 5
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      DesignSize = (
+        473
+        268)
+      object LabDirFiles: TLabel
+        Left = 16
+        Top = 8
+        Width = 42
+        Height = 13
+        Caption = 'Directory'
+      end
+      object EdtDirFiles: TEdit
+        Left = 80
+        Top = 8
+        Width = 345
+        Height = 21
+        Anchors = [akLeft, akTop, akRight]
+        TabOrder = 0
+      end
+      object GrdFiles: TStringGrid
+        Left = 8
+        Top = 40
+        Width = 457
+        Height = 225
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        DefaultRowHeight = 16
+        Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing]
+        PopupMenu = PopupFiles
+        TabOrder = 1
+        OnDblClick = GrdFilesDblClick
+        OnKeyDown = GrdFilesKeyDown
+        OnMouseDown = GrdFilesMouseDown
+      end
+      object PshDir2: TButton
+        Left = 448
+        Top = 8
+        Width = 22
+        Height = 22
+        Anchors = [akTop, akRight]
+        Caption = '...'
+        TabOrder = 2
+        OnClick = PshDir2Click
+      end
+      object PshRefreshFiles: TBitBtn
+        Left = 424
+        Top = 8
+        Width = 22
+        Height = 22
+        Anchors = [akTop, akRight]
+        DoubleBuffered = True
+        Glyph.Data = {
+          8E020000424D8E0200000000000036000000280000000D0000000F0000000100
+          18000000000058020000230B0000230B00000000000000000000E3E3E3DDDDDD
+          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+          DD00E3E3E3E3E3E3DDDDDDDDDDDDDDDDDDDDDDDD666666DDDDDDDDDDDDDDDDDD
+          DDDDDDDDDDDDDDDDDD00EAEAEAE3E3E3E3E3E3DDDDDDDDDDDD666666666666DD
+          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD00EAEAEAEAEAEAE3E3E3E3E3E36666
+          66666666666666666666666666DDDDDDDDDDDDDDDDDDDDDDDD00EAEAEAEAEAEA
+          E3E3E3E3E3E3E3E3E3666666666666DDDDDDB2B2B25F5F5FDDDDDDDDDDDDDDDD
+          DD00EAEAEAEAEAEAEAEAEAE3E3E3E3E3E3E3E3E3666666DDDDDDDDDDDD5F5F5F
+          DDDDDDDDDDDDDDDDDD01F8F8F8EAEAEAEAEAEAEAEAEAEAEAEAE3E3E3E3E3E3E3
+          E3E3DDDDDD5F5F5FDDDDDDDDDDDDDDDDDD00F8F8F8EAEAEAEAEAEA5F5F5FEAEA
+          EAEAEAEAEAEAEAE3E3E3E3E3E3DDDDDDDDDDDDDDDDDDDDDDDD01F8F8F8F8F8F8
+          EAEAEA5F5F5FEAEAEAEAEAEA666666E3E3E3E3E3E3E3E3E3DDDDDDDDDDDDDDDD
+          DD61F8F8F8F8F8F8F8F8F85F5F5FB2B2B2EAEAEA666666666666E3E3E3E3E3E3
+          DDDDDDDDDDDDDDDDDD6FF8F8F8F8F8F8F8F8F8F8F8F866666666666666666666
+          6666666666E3E3E3E3E3E3DDDDDDDDDDDD5DF8F8F8F8F8F8F8F8F8F8F8F8F8F8
+          F8F8F8F8666666666666F1F1F1F2F2F2ECECECE2E2E2DEDEDE67F8F8F8F8F8F8
+          F8F8F8F8F8F8F8F8F8F8F8F8666666F1F1F1F1F1F1F4F4F4CFCFCFEAEAEADFDF
+          DF66F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F1F1F1F1F1F1F4F4F4
+          F2F2F2F8F8F8F8F8F888F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8F8
+          F8F8F1F1F1F4F4F4EDEDEDF8F8F8F8F8F87F}
+        Margin = 2
+        ParentDoubleBuffered = False
+        Spacing = -1
+        TabOrder = 3
+        OnClick = PshRefreshFilesClick
+      end
+      object ChkRecurse: TCheckBox
+        Left = 8
+        Top = 25
+        Width = 65
+        Height = 16
+        Caption = 'Recurse'
+        TabOrder = 4
+      end
+    end
+  end
+  object PopLinks: TPopupMenu
+    Left = 412
+    Top = 8
+    object TMenuItem
+    end
+    object DownloadSelected1: TMenuItem
+      Caption = 'Download Selected'
+      OnClick = DownloadSelected1Click
+    end
+    object DownloadFilter1: TMenuItem
+      Caption = 'Download Filter'
+      OnClick = DownloadFilter1Click
+    end
+    object N1: TMenuItem
+      Caption = '-'
+    end
+    object MenRefreshLinks: TMenuItem
+      Caption = 'Refresh'
+      ShortCut = 116
+      OnClick = MenRefreshLinksClick
+    end
+    object AutoSelected1: TMenuItem
+      Caption = 'Add Selected to Auto Download '
+      OnClick = AutoSelected1Click
+    end
+    object ToClip: TMenuItem
+      Caption = 'To Clip'
+      OnClick = ToClipClick
+    end
+  end
+  object Timer1: TTimer
+    Interval = 300
+    OnTimer = Timer1Timer
+    Left = 384
+    Top = 16
+  end
+  object PopDownload: TPopupMenu
+    Left = 440
+    Top = 8
+    object Cancel1: TMenuItem
+      Caption = 'Cancel'
+      OnClick = Cancel1Click
+    end
+    object MoveToTop1: TMenuItem
+      Caption = 'Move To Top'
+    end
+    object N2: TMenuItem
+      Caption = 'Clear Old Links'
+      OnClick = N2Click
+    end
+    object Clearall1: TMenuItem
+      Caption = 'Clear all'
+      OnClick = Clearall1Click
+    end
+    object N3: TMenuItem
+      Caption = '-'
+    end
+    object CancelDownloads1: TMenuItem
+      Caption = 'Cancel Downloads'
+      OnClick = CancelDownloads1Click
+    end
+    object TerminateallDownloads1: TMenuItem
+      Caption = 'Terminate all Downloads'
+      OnClick = TerminateallDownloads1Click
+    end
+    object MenPauseDownload: TMenuItem
+      Caption = 'Pause Downloads'
+      OnClick = MenPauseDownloadClick
+    end
+    object Speed1: TMenuItem
+      Caption = 'Speed'
+      object Maximum1: TMenuItem
+        Caption = 'Maximum'
+        Checked = True
+        OnClick = Maximum1Click
+      end
+      object Medium1: TMenuItem
+        Caption = 'Medium'
+        OnClick = Medium1Click
+      end
+      object Low1: TMenuItem
+        Caption = 'Low'
+        OnClick = Low1Click
+      end
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Filter = '*.'
+    Options = [ofHideReadOnly, ofPathMustExist, ofEnableSizing]
+    Left = 248
+    Top = 8
+  end
+  object PopAuto: TPopupMenu
+    Left = 472
+    Top = 8
+    object PshAutoAll: TMenuItem
+      Caption = 'Auto All'
+      OnClick = PshAutoAllClick
+    end
+    object CancelAuto: TMenuItem
+      Caption = 'Cancel All'
+      OnClick = CancelAutoClick
+    end
+    object MenCancelSel: TMenuItem
+      Caption = 'Cancel Selected'
+      OnClick = MenCancelSelClick
+    end
+    object MenPauseAuto: TMenuItem
+      Caption = 'Pause Auto'
+      OnClick = MenPauseAutoClick
+    end
+  end
+  object PopupFiles: TPopupMenu
+    Left = 384
+    Top = 8
+    object View1: TMenuItem
+      Caption = 'View'
+      OnClick = View1Click
+    end
+    object N4: TMenuItem
+      Caption = '-'
+    end
+    object Next1: TMenuItem
+      Caption = 'Next'
+    end
+    object Prev1: TMenuItem
+      Caption = 'Prev'
+    end
+  end
+  object TimerLinks: TTimer
+    Interval = 10000
+    OnTimer = TimerLinksTimer
+    Left = 368
+    Top = 8
+  end
+  object PopupSearch: TPopupMenu
+    Left = 472
+    Top = 40
+    object DeletefromList1: TMenuItem
+      Caption = 'Delete from List'
+      OnClick = DeletefromList1Click
+    end
+    object PshAutoSearch: TMenuItem
+      Caption = 'Auto Search'
+      OnClick = PshAutoSearchClick
+    end
+  end
+  object IdHTTP1: TIdHTTP
+    OnWork = IdHTTP1Work
+    OnWorkBegin = IdHTTP1WorkBegin
+    OnWorkEnd = IdHTTP1WorkEnd
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 280
+    Top = 32
+  end
+end
